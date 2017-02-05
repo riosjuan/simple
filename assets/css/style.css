@@ -374,15 +374,18 @@ body {
   clear: both; }
 
 .btn {
+  font-size: 1,5rem;
   color: #ffffff;
   background-color: #1994f9;
   padding: 1rem 3rem;
   text-decoration: none;
   border-radius: .5rem;
   display: inline-block;
-  transition: background-color 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 16px 64px -16px rgba(25, 148, 249, 0.8); }
   .btn:hover, .btn:focus {
-    background-color: #045ea8; }
+    background-color: #0688f2;
+    box-shadow: 0 16px 32px -16px rgba(25, 148, 249, 0.85); }
 
 img {
   display: block;
@@ -390,9 +393,9 @@ img {
   margin-right: auto; }
 
 .container {
-  max-width: 960px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  max-width: 56rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
   clear: both; }
@@ -400,8 +403,8 @@ img {
 .one-half {
   width: 50%;
   min-height: 1px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   float: left; }
   .one-half:first-child {
     padding-left: 0; }
@@ -416,8 +419,8 @@ img {
 .one-third {
   width: 33.3333%;
   min-height: 1px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   float: left; }
   .one-third:first-child {
     padding-left: 0; }
@@ -442,7 +445,7 @@ img {
 /* Typography */
 h1 {
   color: #616161;
-  font-size: 2.6em;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: 2rem; }
