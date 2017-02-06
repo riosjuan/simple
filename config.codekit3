@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.idea\/modules.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -19,6 +25,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/simple.iml",
+		"oF": 0
+		},
+	"\/.idea\/vcs.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/vcs.xml",
 		"oF": 0
 		},
 	"\/.idea\/watcherTasks.xml": {
@@ -33,16 +45,16 @@
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
-	"\/_sass\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/normalize.scssc": {
+	"\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/normalize.scssc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_sass\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/normalize.scssc",
+		"oAP": "\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/normalize.scssc",
 		"oF": 0
 		},
-	"\/_sass\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/style.scssc": {
+	"\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/style.scssc": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_sass\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/style.scssc",
+		"oAP": "\/.sass-cache\/7fa96b4203ed5c5df62f775169c682f9c0e029e6\/style.scssc",
 		"oF": 0
 		},
 	"\/_sass\/normalize.scss": {
@@ -264,14 +276,6 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
-		},
-	"\/screencapture-juan-8-local-5757-1459028996972.png": {
-		"ft": 32768,
-		"iS": 1190070,
-		"oA": 0,
-		"oAP": "\/screencapture-juan-8-local-5757-1459028996972.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/simple-rain.com.sketch": {
 		"ft": 8192,
