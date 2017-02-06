@@ -1,9 +1,8 @@
 // Variables
 
-$main-font-family:            'Lato', Helvetica, Arial, sans-serif;
+$main-font-family:            -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 $base-font-size:              16px;
 
-$small-font-size  :           $base-font-size * 0.875;
 $base-line-height:            1.6;
 
 $font-weight-Light:           300;
@@ -12,8 +11,6 @@ $font-weight-semibold:        600;
 $font-weight-bold:            700;
 
 $spacing-unit:                32px;
-
-
 
 $white:                       #ffffff;
 $simple-blue:                 #1994f9;
@@ -33,6 +30,7 @@ $text-color-light:            lighten($text-color, 20%);
 /*  Basic styling */
 
 body {
+  font-weight: 400;
   font: $font-weight-regular #{$base-font-size * 1.2}/#{$base-line-height} $main-font-family;
   color: $text-color;
   vertical-align: baseline;
@@ -55,20 +53,48 @@ body {
    clear: both;
 }
 
+// Colors
+.light-blue { color: lighten($simple-blue, 10%);}
+.dark-blue { color: darken($simple-blue, 40%);}
+
+//Typography
+
+/*Font weights*/
+.fw1 { font-weight: 100; }
+.fw2 { font-weight: 200; }
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+.fw8 { font-weight: 800; }
+.fw9 { font-weight: 900; }
+
+/*Type scale*/
+.f1 { font-size: 3rem; }
+.f2 { font-size: 2.25rem; }
+.f3 { font-size: 1.5rem; }
+.f4 { font-size: 1.25rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: .875rem; }
+
 .btn {
-  font-size: 1,5rem;
+  font-size: 1rem;
+  font-weight: 500;
   color: $white;
   background-color: $simple-blue;
   padding: 1rem 3rem;
   text-decoration: none;
+  text-transform: uppercase;
   border-radius: .5rem;
   display: inline-block;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.25s ease-in-out;
   box-shadow: 0 16px 64px -16px rgba(25, 148, 249, 0.80);
 
   &:hover, &:focus {
     background-color: darken($simple-blue, 5%);
-    box-shadow: 0 16px 32px -16px rgba(25, 148, 249, 0.85);
+    box-shadow: 0 4px 6px rgba(25, 148, 249, .20), 0 1px 3px rgba(0,0,0,.08);
+    //box-shadow: 0 16px 32px -16px rgba(25, 148, 249, 0.85);
   }
 }
 
@@ -160,19 +186,11 @@ img {
 
 h1 {
   color: $text-color;
-  font-size: 3rem;
-  font-weight: 300;
   line-height: 1.2;
-  margin-bottom: 2rem;
-
-  @media screen and (max-width: 767px) {
-    font-size: 1.8em;
-  }
+  margin-bottom: 3rem;
 }
 
 h2 {
-  font-size: 1.8em;
-  font-weight: 400;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -189,8 +207,8 @@ p {
 /* Header */
 
 header {
-  height: 100vh;
-  padding: 120px 0;
+  //height: 100vh;
+  padding: 8rem 0;
   background: url("../images/umbrellas.jpg") no-repeat center center / cover;
   overflow: visible;
 
@@ -234,8 +252,8 @@ header {
 
 .icon {
   display: inline;
-  margin-bottom: 3rem;
-  width: 96px;
+  margin-bottom: 2rem;
+  width: 4rem;
 
   @media screen and (max-width: 426px) {
     margin-top: 3rem;
