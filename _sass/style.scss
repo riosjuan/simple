@@ -1,4 +1,5 @@
 // Variables
+@import "normalize";
 
 $main-font-family:            -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 $base-font-size:              16px;
@@ -16,8 +17,6 @@ $white:                       #ffffff;
 $simple-blue:                 #1994f9;
 $simple-blue-dark:            darken($simple-blue, 10%);
 $simple-blue-light:           lighten($simple-blue, 20%);
-
-@import "normalize";
 
 /*  Basic styling */
 
