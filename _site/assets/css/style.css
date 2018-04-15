@@ -60,7 +60,7 @@ svg:not(:root) { overflow: hidden; }
 
 /* Grouping content ========================================================================== */
 /** Address margin not present in IE 8/9 and Safari. */
-figure { margin: 1em 32px; }
+figure { margin: 1em 40px; }
 
 /** Address differences between Firefox and other browsers. */
 hr { box-sizing: content-box; height: 0; }
@@ -125,7 +125,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 td, th { padding: 0; }
 
 /*  Basic styling */
-body { font-size: 19.2px; font-weight: 320; font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif; line-height: 1.6; vertical-align: baseline; background: #ffffff; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { font-size: 19.2px; font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif; line-height: 1.6; vertical-align: baseline; background: #ffffff; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 
 * { box-sizing: border-box; }
 
@@ -146,7 +146,7 @@ div { display: block; }
 
 .fw3 { font-weight: 300; }
 
-.fw4 { font-weight: 320; }
+.fw4 { font-weight: 400; }
 
 .fw5 { font-weight: 500; }
 
@@ -185,17 +185,17 @@ img { display: block; margin-left: auto; margin-right: auto; }
 .one-half { width: 50%; min-height: 1px; padding-left: 1.5rem; padding-right: 1.5rem; float: left; }
 .one-half:first-child { padding-left: 0; }
 .one-half:last-child { padding-right: 0; }
-@media screen and (max-width: 32rem) { .one-half { width: 100%; padding-left: 0; padding-right: 0; } }
+@media screen and (max-width: 30rem) { .one-half { width: 100%; padding-left: 0; padding-right: 0; } }
 
 .one-third { width: 33.3333%; min-height: 1px; padding-left: 1rem; padding-right: 1rem; float: left; }
 .one-third:first-child { padding-left: 0; }
 .one-third:last-child { padding-right: 0; }
-@media screen and (max-width: 32rem) { .one-third { width: 100%; padding-left: 0; padding-right: 0; } }
+@media screen and (max-width: 30rem) { .one-third { width: 100%; padding-left: 0; padding-right: 0; } }
 
 .show { display: none; }
-@media screen and (max-width: 32rem) { .show { display: block; } }
+@media screen and (max-width: 30rem) { .show { display: block; } }
 
-@media screen and (max-width: 32rem) { .hide { display: none; } }
+@media screen and (max-width: 30rem) { .hide { display: none; } }
 
 /* Typography */
 h1 { line-height: 1.2; margin-bottom: 3rem; }
@@ -208,21 +208,21 @@ p { margin-top: 0; }
 
 /* Header */
 header { background: url(../images/umbrellas.jpg) no-repeat center center; background-size: cover; }
-@media screen and (max-width: 32rem) { header { background-size: contain; } }
-header .header-container { max-width: 56rem; padding: 6rem 1.5rem; margin-left: auto; margin-right: auto; display: flex; align-items: center; }
-@media screen and (max-width: 32rem) { header .header-container { margin-bottom: 3rem; display: block; padding: 3rem 1.5rem; text-align: center; } }
+@media screen and (max-width: 30rem) { header { background-size: contain; } }
+header .header-container { max-width: 56rem; padding: 8rem 1.5rem; margin-left: auto; margin-right: auto; display: flex; align-items: center; }
+@media screen and (max-width: 30rem) { header .header-container { margin-bottom: 3rem; display: block; padding: 3rem 1.5rem; text-align: center; } }
 
 .phone { width: 100%; }
-@media screen and (max-width: 32rem) { .phone { width: 100%; height: 100%; margin-top: 2.5rem; margin-bottom: 3rem; } }
+@media screen and (max-width: 30rem) { .phone { width: 100%; height: 100%; margin-top: 2.5rem; margin-bottom: 3rem; } }
 
 /*  Bullets */
 .icon { display: inline; margin-bottom: 2rem; width: 4rem; }
-@media screen and (max-width: 32rem) { .icon { margin-top: 3rem; margin-bottom: 1.5rem; }
+@media screen and (max-width: 30rem) { .icon { margin-top: 3rem; margin-bottom: 1.5rem; }
   .icon:first-child { margin-top: 0; } }
 
 .download { padding-top: 6rem; padding-bottom: 6rem; }
 .download img { height: 64px; }
-@media screen and (max-width: 32rem) { .download { padding-top: 4rem; padding-bottom: 4rem; } }
+@media screen and (max-width: 30rem) { .download { padding-top: 4rem; padding-bottom: 4rem; } }
 
 /*  Footer */
 footer { font-size: 1em; padding: 2rem 0; }
